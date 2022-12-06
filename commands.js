@@ -13,10 +13,10 @@ db.createCollection('bounties')
 db.people.insertOne(,{"name": "Thanoceros"})
 
 // 2. Query for all bounties in the bounties collection
-
+db.bounties.find()
 
 // 3. Insert many bounties at once using the given objects
-
+db.collection.insertMany()
 // MANAGE THE DATABASE
 // Queries
 // 1. Query for all bounties in the Grasslands
@@ -37,10 +37,11 @@ db.people.insertOne(,{"name": "Thanoceros"})
 }
 // Update and Delete
 // 1. Update the reward for Polarwind to 10000
-
+db.reward.update()
 // 2. Remove Lokinkajou
+deleteOne()
 
 // 3. Delete all bounties sent by Songbird
-deleteMany
+deleteMany()
 // 4. Update all captured statuses to true
-updateMany
+updateMany()
